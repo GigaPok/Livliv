@@ -1,0 +1,30 @@
+/* Basic */
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header-inputs{
+    position: relative;
+}
+.header-inputs input{
+    width: 168px;
+    height: 45px;
+    border-radius: 14px;
+    background-color: white;
+    opacity: 0.2;
+    outline: none;
+}
+.header-inputs input::placeholder{
+    padding: 12px 78px 14px 37px;
+    color: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+.header-inputs .fa-map-marker-alt{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    opacity: 0.5;
+}
