@@ -19,8 +19,8 @@
 }
 .header-inputs input::placeholder{
     padding: 12px 78px 14px 37px;
-    color: rgba(255, 255, 255, 0);
-    opacity: 1;
+    color: red;
+    opacity: 0.9;
 }
 .header-inputs .fa-map-marker-alt{
     position: absolute;
