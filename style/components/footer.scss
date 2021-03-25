@@ -1,0 +1,113 @@
+footer {
+    padding-bottom: 30px;
+
+    .footer-wrap {
+        background-image: url(../img/footer-line.svg);
+        background-position: top left;
+        background-size: 650px 1px;
+        background-repeat: no-repeat;
+
+        &.waitlist {
+            padding-top: 14px;
+
+            p {
+                font-weight: bold;
+                font-size: 14px;
+                color: #ffffff;
+                margin-bottom: 16px;
+            }
+
+            .row {
+                display: flex;
+                align-items: center;
+
+                & > a {
+                    display: flex;
+                    align-items: center;
+                    background-color: rgba(#ffffff, 0.08);
+                    color: #ffffff;
+                    height: 48px;
+                    border-radius: 14px;
+                    font-size: 14px;
+                    padding: 0 30px;
+                    margin-right: 18px;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+
+                nav {
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+
+                    span {
+                        color: rgba(#ffffff, 0.5);
+                        margin-right: 8px;
+                    }
+
+                    a {
+                        color: #ffffff;
+                        margin-right: 16px;
+
+                        &:last-of-type {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.copyright {
+            padding-top: 25px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+    }
+}
+
+.free-updates {
+    margin-top: 30px;
+    height: 48px;
+}
+.free-updates a {
+    color: #ffffff;
+    border-radius: 16px;
+    background-color: #191917;
+    padding: 14px 31px 15px 29px;
+}
+.footer-wrap-div > p {
+    margin-left: 16px;
+    margin-right: 8px;
+    color: #ffffff;
+    opacity: 0.53;
+}
+
+.footer > p {
+    margin-top: 14px;
+}
+.footer-wrap-div {
+    display: flex;
+    align-items: center;
+}
+.footer-wrap-div:nth-child(3) div a {
+    margin-right: 16px;
+    color: #ffffff;
+}
+.footer-wrap-div:nth-child(3) div a:last-of-type {
+    margin-right: 0;
+}
+.copyright {
+    margin-top: 25px;
+    align-items: center;
+}
+.copyright p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.copyright a {
+    font-size: 14px;
+    color: #ffffff;
+}

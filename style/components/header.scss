@@ -1,0 +1,78 @@
+@import '../common.scss';
+
+header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navigation {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            color: #ffffff;
+            opacity: 0.6;
+        }
+    }
+
+    form {
+        display: flex;
+
+        label {
+            width: 168px;
+            display: flex;
+            height: 45px;
+            padding: 14px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 14px;
+            margin-right: 16px;
+        }
+
+        i {
+            margin-right: 10px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    input {
+        background: none;
+        border: none;
+        outline: none;
+        color: #fff;
+        width: 100%;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    button {
+        width: 168px;
+        height: 45px;
+        border-radius: 14px;
+        border: none;
+        outline: none;
+        color: #0d0d0d;
+        font-weight: bold;
+    }
+
+    nav {
+        margin-right: 31px;
+
+        @include md {
+            display: none;
+        }
+
+        a {
+            color: #ffffff;
+            margin-right: 16px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}

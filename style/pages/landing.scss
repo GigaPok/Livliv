@@ -1,0 +1,36 @@
+section.landing {
+    p {
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: #ffffff;
+        margin-top: 1px;
+        margin-bottom: 20px;
+        margin-right: 47px;
+
+        span.lighting {
+            position: relative;
+            margin-left: 80px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                background-image: url(../img/lighting.svg);
+                width: 266px;
+                height: 89px;
+                left: -40px;
+            }
+        }
+    }
+
+    a {
+        color: #ffffff;
+        padding: 12px 45px 14px 45px;
+        background-color: #242aec;
+        display: inline-block;
+        border-radius: 14px;
+    }
+}

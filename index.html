@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <title>Landing - 1</title>
 </head>
 
-<body>
+<body class="landing">
     <header class="container">
         <div class="navigation">
             <a href="index.html">
@@ -36,45 +35,37 @@
         </form>
     </header>
     <main class="container">
-        <div class="d-flex main-wrap-div">
-            <div class="main-wrap-div-box">
-                <p>Creative Lamps designed and manufactured in Georgia</p>
-                <h1>Building the future of</h1>
-                <div>
-                    <a href="">Join waitlist</a>
-                </div>
-            </div>
-            <div class="lighting">
-                <span>lighting</span>
-            </div>
-        </div>
+        <section class="landing">
+            <p>Creative Lamps designed and manufactured in Georgia</p>
+            <h1>Building the future of<span class="lighting">lighting</span></h1>
+            <a href="">Join waitlist</a>
+        </section>
     </main>
-    <footer class="footer container">
-        <hr>
-        <p>Benefits of Waitlist:</p>
-        <div class="footer-wrap-div">
-            <div class="free-updates">
+    <footer class="container">
+        <div class="footer-wrap waitlist">
+            <p>Benefits of Waitlist:</p>
+            <div class="row">
                 <a href="#">
                     <i class="fas fa-check-circle"></i>
                     One Year Free Updates
                 </a>
-            </div>
-            <p>also:</p>
-            <div>
-                <a href="#">Livliv T-shirts</a>
-                <a href="#">Brand Stickers</a>
-                <a href="#">Life Time Support</a>
+                <nav>
+                    <span>also:</span>
+                    <a href="#">Livliv T-shirts</a>
+                    <a href="#">Brand Stickers</a>
+                    <a href="#">Life Time Support</a>
+                </nav>
             </div>
         </div>
-        <hr>
-        <div class="copyright d-flex">
-            <p>2021 Livliv Lamps © Crafted in Georgia with</p>
-            <a href="#">Love
-                <i class="far fa-heart"></i>
-            </a>
+        <div class="footer-wrap copyright">
+            2021 Livliv Lamps © Crafted in Georgia with Love &#60;3
         </div>
     </footer>
-
+    <div class="circles">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </body>
 
 </html>
