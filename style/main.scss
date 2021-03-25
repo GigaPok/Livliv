@@ -1,4 +1,4 @@
-/* Basic */
+@import "common.scss";
 
 body {
     display: flex;
@@ -16,11 +16,19 @@ body {
 }
 
 .container {
-    width: 1120px;
+    width: 1500px;
     padding-left: 16px;
     padding-right: 16px;
     position: relative;
     z-index: 2;
+
+    @include xl {
+        width: 1120px;
+    }
+
+    @include lg {
+        width: 100%;
+    }
 }
 
 .d-flex {
