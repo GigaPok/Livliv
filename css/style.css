@@ -8,6 +8,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .container {
@@ -19,11 +21,11 @@ body{
     display: flex;
 }
 main{
-    margin-top: 153px;
     align-items: center;
 }
 footer{
-    margin-top: 157px;
+    bottom: 30px;
+    position: absolute;
 }
 /* Header */
 header {
@@ -98,24 +100,27 @@ nav{
 
 /* Main */
 
-.main-wrap-div p{
+.main-wrap-div-box p{
     font-size: 14px;
     color: #FFFFFF;
 }
-.main-wrap-div h1{
+.main-wrap-div-box h1{
     font-size: 48px;
     color: #FFFFFF;
     margin-top: 1px;
     margin-right: 47px;
 }
-.main-wrap-div div {
+.main-wrap-div-box div {
     margin-top: 33px;
 }
-.main-wrap-div div a {
+.main-wrap-div-box div a {
     color: #FFFFFF;
     padding: 12px 45px 14px 45px;
     background-color: #242AEC;
     border-radius: 14px;
+}
+.main-wrap-div{
+    margin-top: 153px;
 }
 main .lighting{
     background-image: url(../img/lighting.svg);
