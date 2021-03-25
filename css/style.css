@@ -79,8 +79,8 @@ footer .footer-wrap.copyright { padding-top: 25px; font-size: 14px; color: #ffff
 body .circles { position: fixed; z-index: 1; width: 100%; height: 100%; }
 body .circles span { position: absolute; display: block; width: 523px; height: 523px; background-image: url(../img/circle.svg); }
 body.landing .circles span:nth-of-type(1) { top: -380px; right: -180px; }
-body.landing .circles span:nth-of-type(2) { top: -380px; right: -180px; }
-body.landing .circles span:nth-of-type(3) { top: -380px; right: -180px; }
+body.landing .circles span:nth-of-type(2) { bottom: -20px; right: -394px; }
+body.landing .circles span:nth-of-type(3) { bottom: -240px; right: -80px; }
 
 section.landing p { font-size: 14px; color: #ffffff; }
 section.landing h1 { font-size: 48px; color: #ffffff; margin-top: 1px; margin-bottom: 20px; margin-right: 47px; }
