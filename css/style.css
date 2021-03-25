@@ -21,7 +21,7 @@ body{
 main{
     margin-top: 153px;
 }
-.section2{
+footer{
     margin-top: 157px;
 }
 /* Header */
@@ -79,32 +79,58 @@ header form i {
     margin-right: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
+.navigation p {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+nav a{
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+nav a:last-of-type{
+    margin-right: 0;
+}
+nav{
+    margin-right: 31px;
+}
 /* Finish Header */
 
-/* Section1 */
+/* Main */
 
-.section1-left-div p{
+.main-wrap-div p{
     font-size: 14px;
     color: #FFFFFF;
 }
-.section1-left-div h1{
+.main-wrap-div h1{
     font-size: 48px;
     color: #FFFFFF;
     margin-top: 1px;
     margin-right: 47px;
 }
-.section1-left-div div {
+.main-wrap-div div {
     margin-top: 33px;
 }
-.section1-left-div div a {
+.main-wrap-div div a {
     color: #FFFFFF;
     padding: 12px 45px 14px 45px;
     background-color: #242AEC;
     border-radius: 14px;
 }
-/* Finish Section1 */
+main .lighting{
+    background-image: url(../img/lighting.svg);
+    width: 266px;
+    height: 89px;
+    position: relative;
+}
+main span{
+    font-size: 48px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+}
+/* Finish Main */
 
-/* Start Section2 */
+/* Start footer */
 
 hr {
     background-image: linear-gradient(to left, #0a090f00, #35323B);
@@ -126,14 +152,39 @@ hr {
     background-color: #191917;
     padding: 14px 31px 15px 29px;
 }
-.section2 p{
+.footer-wrap-div > p{
+    margin-left: 16px;
+    margin-right: 8px;
+    color: #FFFFFF;
+    opacity: 0.53;
+}
+
+.footer > p{
+    margin-top: 14px;
     font-size: 14px;
     color: #FFFFFF;
 }
-.section2 > p{
-    margin-top: 14px;
-}
-.section2-main-div{
+.footer-wrap-div{
     display: flex;
     align-items: center;
+}
+.footer-wrap-div:nth-child(3) div a {
+    margin-right: 16px;
+    color: #FFFFFF;
+}
+.footer-wrap-div:nth-child(3) div a:last-of-type {
+    margin-right: 0;
+}
+.copyright{
+    margin-top: 25px;
+    align-items: center;
+}
+.copyright p{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.copyright a{
+    font-size: 14px;
+    color: #FFFFFF;
 }
