@@ -20,6 +20,7 @@ body{
 }
 main{
     margin-top: 153px;
+    align-items: center;
 }
 footer{
     margin-top: 157px;
