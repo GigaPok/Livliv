@@ -83,7 +83,7 @@ body .circles span { position: absolute; display: block; width: 523px; height: 5
 body.photos .circles span:nth-of-type(1) { top: 266px; right: -440px; }
 body.order-now .circles span { bottom: -12px; right: -400px; }
 
-.disagbled-btn { opacity: 0.17; }
+.disabled-btn { opacity: 0.17; }
 
 section.landing p { font-size: 14px; color: #ffffff; }
 section.landing h1 { font-size: 48px; color: #ffffff; margin-top: 1px; margin-bottom: 20px; margin-right: 47px; }
