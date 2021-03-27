@@ -1,0 +1,88 @@
+section.pre-order {
+    justify-content: center;
+
+    .pre-order-now {
+        form {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            width: 460px;
+            height: 447px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 14px;
+            padding: 20px;
+
+            input {
+                border-radius: 8px;
+                height: 54px;
+                border: 1px solid #e6e6e6;
+                outline: none;
+                padding: 0 24px;
+                margin-bottom: 13px;
+            }
+            h2 {
+                font-size: 28px;
+                margin-bottom: 4px;
+                color: #000000;
+                margin-bottom: 18px;
+            }
+    
+            .free-shipping {
+                display: flex;
+                justify-content: center;
+                color: #575757;
+    
+                span {
+                    color: #00ceff;
+                }
+            }
+    
+            button {
+                background: rgb(36, 42, 236);
+                background: linear-gradient(90deg, rgba(36, 42, 236, 1) 0%, rgba(0, 133, 252, 1) 35%);
+                height: 42px;
+                margin-bottom: 16px;
+                cursor: pointer;
+                border: none;
+                outline: none;
+    
+                i {
+                    height: 12px;
+                    margin-right: 13px;
+                }
+            }
+        }
+        
+    }
+    .need-help {
+        background-color: white;
+        display: flex;
+        border-radius: 14px;
+        width: 460px;
+        height: 118px;
+        align-items: center;
+        margin-top: 18px;
+
+        p {
+            max-width: 245px;
+            font-size: 14px;
+            color: #000000;
+            margin-top: 2px;
+            line-height: 19px;
+        }
+
+        img {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+        a {
+            color: #0181fb;
+            text-decoration: underline;
+        }
+    }
+}
+
+

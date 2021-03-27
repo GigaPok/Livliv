@@ -22,6 +22,11 @@ body {
         background-position: top -160px center, top center;
         background-size: 1932px, 100%;
     }
+    &.order-now{
+        background-color: rgb(29,32,43);
+        background-image: url(../img/bg-order-now.png), linear-gradient(90deg, rgba(29,32,43,1) 0%, rgba(40,32,42,1) 35%, rgba(40,32,42,1) 100%);
+        background-position: bottom 160px center, top center;
+    }
 }
 
 .container {
