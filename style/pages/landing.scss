@@ -10,27 +10,29 @@ section.landing {
         margin-top: 1px;
         margin-bottom: 20px;
         margin-right: 47px;
+    }
+    .order-sound--btn-wrap {
 
-        span.lighting {
-            position: relative;
-            margin-left: 80px;
-
-            &::after {
-                content: '';
-                position: absolute;
-                background-image: url(../img/lighting.svg);
-                width: 266px;
-                height: 89px;
-                left: -40px;
+        display: flex;
+        align-items: center;
+        
+        .order-btn {
+            background-color: #242aec;
+            width: 168px;
+            height: 48px;
+            margin-right: 22px;
+            i {
+                width: 20px;
+                height: auto;
+                margin-right: 12px;
             }
         }
+        .sound-btn{
+            width: 45px;
+            height: 45px;
+            background-color: #707070;
+        }
+        
     }
-
-    a {
-        color: #ffffff;
-        padding: 12px 45px 14px 45px;
-        background-color: #242aec;
-        display: inline-block;
-        border-radius: 14px;
-    }
+    
 }

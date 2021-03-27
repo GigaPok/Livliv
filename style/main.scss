@@ -9,9 +9,13 @@ body {
     background-repeat: no-repeat;
 
     &.landing {
-        background-image: url(../img/landing-bg.png), linear-gradient(#1d202b 0%, #28202a 45.81%, #1a2532 100%);
+        background-image: url(../img/Landing.jpg);
         background-size: 1932px, 100%;
         background-position: top -160px center, top center;
+    }
+    &.photos {
+        background-color: rgb(29,32,43);
+        background: linear-gradient(90deg, rgba(29,32,43,1) 0%, rgba(40,32,42,1) 35%, rgba(40,32,42,1) 100%);
     }
 }
 
@@ -39,4 +43,13 @@ main {
     display: flex;
     align-items: center;
     height: 100%;
+}
+.btn {
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    text-align: center;
 }

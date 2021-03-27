@@ -1,0 +1,16 @@
+section.photos{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 45px;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+        margin-bottom: 47px;
+        border-radius: 16px;
+    }
+}
