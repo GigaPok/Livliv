@@ -17,7 +17,8 @@ section.landing {
         align-items: center;
         
         .order-btn {
-            background-color: #242aec;
+            background: rgb(36,42,236);
+            background: linear-gradient(90deg, rgba(36,42,236,1) 0%, rgba(0,133,252,1) 35%);
             width: 168px;
             height: 48px;
             margin-right: 22px;

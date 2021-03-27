@@ -17,6 +17,11 @@ body {
         background-color: rgb(29,32,43);
         background: linear-gradient(90deg, rgba(29,32,43,1) 0%, rgba(40,32,42,1) 35%, rgba(40,32,42,1) 100%);
     }
+    &.specification {
+        background-image: url(../img/photos-1.png);
+        background-position: top -160px center, top center;
+        background-size: 1932px, 100%;
+    }
 }
 
 .container {
