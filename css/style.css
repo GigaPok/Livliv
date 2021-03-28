@@ -20,7 +20,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 a { text-decoration: none; }
 
 body { display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%; background-repeat: no-repeat; }
-body.landing { background-image: url(../img/Landing.jpg); background-size: 1932px, 100%; background-position: top -160px center, top center; }
 body.photos { background-color: #1d202b; background: linear-gradient(90deg, #1d202b 0%, #28202a 35%, #28202a 100%); }
 body.specification { background-image: url(../img/photos-1.png); background-position: top -160px center, top center; background-size: 1932px, 100%; }
 body.order-now { background-color: #1d202b; background-image: url(../img/bg-order-now.png), linear-gradient(90deg, #1d202b 0%, #28202a 35%, #28202a 100%); background-position: bottom 160px center, top center; }
@@ -85,12 +84,16 @@ body.order-now .circles span { bottom: -12px; right: -400px; }
 
 .disabled-btn { opacity: 0.17; }
 
+.landing-bg-video { position: fixed; width: 100%; height: auto; }
+
 section.landing p { font-size: 14px; color: #ffffff; }
 section.landing h1 { font-size: 48px; color: #ffffff; margin-top: 1px; margin-bottom: 20px; margin-right: 47px; }
 section.landing .order-sound--btn-wrap { display: flex; align-items: center; }
 section.landing .order-sound--btn-wrap .order-btn { background: #242aec; background: linear-gradient(90deg, #242aec 0%, #0085fc 35%); width: 168px; height: 48px; margin-right: 22px; }
 section.landing .order-sound--btn-wrap .order-btn i { width: 20px; height: auto; margin-right: 12px; }
-section.landing .order-sound--btn-wrap .sound-btn { width: 45px; height: 45px; background-color: #707070; }
+section.landing .order-sound--btn-wrap .sound-btn { width: 45px; height: 45px; background-color: #707070; cursor: pointer; }
+section.landing .order-sound--btn-wrap .fa-volume-mute { display: flex; font-size: 15px; }
+section.landing .order-sound--btn-wrap .fa-volume-up { display: none; }
 
 section.photos { display: flex; flex-direction: column; height: 100%; width: 100%; margin-top: 45px; }
 section.photos img { width: 100%; height: auto; border-radius: 14px; margin-bottom: 47px; border-radius: 16px; }

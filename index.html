@@ -10,6 +10,12 @@
 </head>
 
 <body class="landing">
+    <video class="landing-bg-video" loop autoplay muted id="myVideo">
+        <source
+            src="https://r1---sn-nv47lnsr.c.drive.google.com/videoplayback?expire=1616941546&ei=qllgYLD7LsmwhwbJoLO4Dg&ip=212.58.102.157&cp=QVRGWEpfUFVSR1hPOktiZGNydW5XZHprWkVCS0RFNklrMVcyYWkyTk5FRktnSTZsc0wxMXdMVTY&id=a025fcb5b8b26e86&itag=37&source=webdrive&requiressl=yes&mh=wH&mm=32&mn=sn-nv47lnsr&ms=su&mv=m&mvi=1&pl=23&sc=yes&ttl=transient&susc=dr&driveid=16esd3zlB2hNp4y6qpH3tW2L1KkxdbowW&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=41.772&lmt=1616927047132569&mt=1616926821&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAMZJptD9rXZb-wreu8MTuVcniRIrt9uXaNaMtlc9yzI2AiBne0E0pUcx6RgO40CJjSLvhWo-RSdJDFCw6u1pzhVmkQ==&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRAIgf0g1gH5WympeExohm_jbVkzR2HdBT87u9U0RUpW6kFACIFYSYsDX9kvDF-2VnToftPntRoKYyRrW6jtNdxbKfxLf&cpn=MpbFVb-fe_TEfW08&c=WEB_EMBEDDED_PLAYER&cver=1.20210322.1.0"
+            type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <header class="container">
         <div class="navigation">
             <a href="index.html">
@@ -33,10 +39,11 @@
             <div class="order-sound--btn-wrap">
                 <a class="order-btn btn" href="">
                     <i class="fas fa-shopping-cart"></i>
-                Pre-order</a>
-                <a class="sound-btn btn" href="">
-                    <i class="fas fa-volume-up"></i>
-                </a> 
+                    Pre-order</a>
+                <a class="sound-btn btn" onclick="toggleMute()">
+                    <i class="fas fa-volume-up" id="volumeUp"></i>
+                    <i class="fas fa-volume-mute" id="volumeMuted"></i>
+                </a>
             </div>
         </section>
     </main>
@@ -60,6 +67,7 @@
             2021 Livliv Lamps © Crafted in Georgia with Love &#60;3
         </div>
     </footer>
+    <script src="./js/muted-video.js"></script>
 </body>
 
 </html>

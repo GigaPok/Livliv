@@ -27,12 +27,22 @@ section.landing {
                 height: auto;
                 margin-right: 12px;
             }
+
         }
         .sound-btn{
             width: 45px;
             height: 45px;
             background-color: #707070;
+            cursor: pointer;
         }
+        .fa-volume-mute {
+            display: flex;
+            font-size: 15px;
+        }
+        .fa-volume-up {
+            display: none;
+        }
+
         
     }
     
