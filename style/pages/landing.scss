@@ -2,6 +2,8 @@ section.landing {
     p {
         font-size: 14px;
         color: #ffffff;
+        font-family: fira;
+        font-weight: 400;
     }
 
     h1 {
@@ -10,26 +12,30 @@ section.landing {
         margin-top: 1px;
         margin-bottom: 20px;
         margin-right: 47px;
+        line-height: 66px;
+        font-family: fira;
+        font-weight: 900;
     }
     .order-sound--btn-wrap {
-
         display: flex;
         align-items: center;
-        
+
         .order-btn {
-            background: rgb(36,42,236);
-            background: linear-gradient(90deg, rgba(36,42,236,1) 0%, rgba(0,133,252,1) 35%);
+            background: rgb(36, 42, 236);
+            background: linear-gradient(90deg, rgba(36, 42, 236, 1) 0%, rgba(0, 133, 252, 1) 35%);
             width: 168px;
             height: 48px;
             margin-right: 22px;
+            font-family: fira;
+            font-weight: 700;
+
             i {
                 width: 20px;
                 height: auto;
                 margin-right: 12px;
             }
-
         }
-        .sound-btn{
+        .sound-btn {
             width: 45px;
             height: 45px;
             background-color: #707070;
@@ -42,8 +48,5 @@ section.landing {
         .fa-volume-up {
             display: none;
         }
-
-        
     }
-    
 }

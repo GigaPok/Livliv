@@ -1,4 +1,4 @@
-@import '../common.scss';
+@import "../common.scss";
 
 header {
     margin-top: 48px;
@@ -6,38 +6,71 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    @include md {
+        flex-direction: column;
+    }
+
     .navigation {
         display: flex;
         align-items: center;
+
+        @include xs {
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1 1 160px;
+        }
+
         p {
             color: #ffffff;
             opacity: 0.6;
             margin-right: 20px;
             margin-left: 35px;
+            font-family: fira;
+            font-weight: 400;
+            line-height: 17px;
+
+            @include xs {
+                margin-top: 10px;
+            }
         }
     }
-    .header-order-btn{
+    .header-order-btn {
         width: 214px;
         height: 45px;
         background-color: #ffffff;
-        color: #0D0D0D;
+        color: #0d0d0d;
+        font-family: fira;
+        font-weight: 700;
+
+        span {
+            font-weight: 400;
+            margin-left: 5px;
+        }
 
         i {
             color: #000000;
             margin-right: 9px;
         }
-    }  
+    }
 
     nav {
         margin-right: 31px;
 
-        @include md {
-            display: none;
+        @include xs {
+            margin-right: 0;
+            margin-top: 20px;
         }
+
+        // @include md {
+        //     display: none;
+        // }
 
         a {
             color: #ffffff;
             margin-right: 16px;
+            font-family: fira;
+            font-weight: 400;
 
             &:last-of-type {
                 margin-right: 0;

@@ -23,7 +23,7 @@
 }
 
 @mixin xs {
-    @media (max-width: 575.98px) {
+    @media (max-width: 605.98px) {
         @content;
     }
 }

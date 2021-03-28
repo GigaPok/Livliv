@@ -24,6 +24,9 @@ body {
     }
 }
 
+
+
+
 .container {
     width: 1500px;
     padding-left: 16px;
@@ -57,4 +60,45 @@ main {
     align-items: center;
     border-radius: 14px;
     text-align: center;
+}
+
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-Heavy.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-UltraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: Montdemo;
+    src: url(../fonts/Mont-HeavyDEMO.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: fira;
+    src: url(../fonts/FiraGO-Light.ttf);
+    font-weight: 300;
 }

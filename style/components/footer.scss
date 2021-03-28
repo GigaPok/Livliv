@@ -15,6 +15,8 @@ footer {
                 font-size: 14px;
                 color: #ffffff;
                 margin-bottom: 16px;
+                font-family: fira;
+                font-weight: 900;
             }
 
             .row {
@@ -31,9 +33,17 @@ footer {
                     font-size: 14px;
                     padding: 0 30px;
                     margin-right: 18px;
+                    font-family: fira;
+                    font-weight: 400;
 
                     i {
                         margin-right: 10px;
+                    }
+
+                    span {
+                        font-family: fira;
+                        font-weight: 900;
+                        margin: 0 5px;
                     }
                 }
 
@@ -45,11 +55,15 @@ footer {
                     span {
                         color: rgba(#ffffff, 0.5);
                         margin-right: 8px;
+                        font-family: fira;
+                        font-weight: 400;
                     }
 
                     a {
                         color: #ffffff;
                         margin-right: 16px;
+                        font-family: fira;
+                        font-weight: 400;
 
                         &:last-of-type {
                             margin-right: 0;
@@ -63,6 +77,8 @@ footer {
             padding-top: 25px;
             font-size: 14px;
             color: #ffffff;
+            font-family: fira;
+            font-weight: 200;
         }
     }
 }
