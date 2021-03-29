@@ -57,14 +57,14 @@ header {
     nav {
         margin-right: 31px;
 
+        :hover {
+            opacity: 0.8;
+        }
+
         @include xs {
             margin-right: 0;
             margin-top: 20px;
         }
-
-        // @include md {
-        //     display: none;
-        // }
 
         a {
             color: #ffffff;

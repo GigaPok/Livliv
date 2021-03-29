@@ -58,6 +58,10 @@ section.pre-order {
         }
     }
     .shipping {
+
+        @include xs {
+            width: 100%;
+        }
         .shipping-order {
             background-color: #fff;
             width: 460px;
@@ -125,6 +129,10 @@ section.pre-order {
             height: 118px;
             align-items: center;
             margin-top: 18px;
+
+            @include xs {
+                width: 100%;
+            }
 
             h2 {
                 font-family: fira;

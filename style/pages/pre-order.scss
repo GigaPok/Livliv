@@ -6,13 +6,16 @@ section.pre-order {
             display: flex;
             flex-direction: column;
             background-color: #fff;
-            width: 460px;
             height: 447px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             border-radius: 14px;
             padding: 20px;
+
+            @include xs {
+                width: 100%;
+            }
 
             input {
                 border-radius: 8px;
@@ -21,12 +24,17 @@ section.pre-order {
                 outline: none;
                 padding: 0 24px;
                 margin-bottom: 13px;
+                font-family: fira;
+                font-weight: 400;
+                font-size: 14px;
             }
             h2 {
                 font-size: 28px;
                 margin-bottom: 4px;
                 color: #000000;
                 margin-bottom: 18px;
+                font-family: Montdemo;
+                font-weight: 900;
             }
     
             .free-shipping {
@@ -47,6 +55,13 @@ section.pre-order {
                 cursor: pointer;
                 border: none;
                 outline: none;
+                font-family: fira;
+                font-weight: 700;
+
+                span {
+                    font-weight: 400;
+                    margin-left: 5px;
+                }
     
                 i {
                     height: 12px;
@@ -60,10 +75,10 @@ section.pre-order {
         background-color: white;
         display: flex;
         border-radius: 14px;
-        width: 460px;
         height: 118px;
         align-items: center;
         margin-top: 18px;
+        
 
         p {
             max-width: 245px;
@@ -81,6 +96,10 @@ section.pre-order {
         a {
             color: #0181fb;
             text-decoration: underline;
+        }
+
+        @include xs {
+            width: 100%;
         }
     }
 }
