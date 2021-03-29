@@ -60,7 +60,7 @@ header nav :hover { opacity: 0.8; }
 header nav a { color: #ffffff; margin-right: 16px; font-family: fira; font-weight: 400; }
 header nav a:last-of-type { margin-right: 0; }
 
-footer { padding-bottom: 30px; }
+footer { padding-bottom: 30px; min-height: 220px; }
 footer .footer-wrap { background-image: url(../img/footer-line.svg); background-position: top left; background-size: 650px 1px; background-repeat: no-repeat; }
 footer .footer-wrap.waitlist { padding-top: 14px; }
 @media (max-width: 605.98px) { footer .footer-wrap.waitlist { text-align: center; } }
