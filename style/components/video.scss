@@ -1,6 +1,6 @@
 .landing-bg-video {
     position: fixed;
     min-width: 100%;
-    height: auto;
+    height: 100vh;
+    object-fit: fill;
 }
-
