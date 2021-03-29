@@ -8,6 +8,7 @@ header {
 
     @include md {
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .navigation {
@@ -42,6 +43,10 @@ header {
         color: #0d0d0d;
         font-family: fira;
         font-weight: 700;
+
+        @include xs {
+            margin-bottom: 20px;
+        }
 
         span {
             font-weight: 400;

@@ -45,12 +45,13 @@ main { display: flex; align-items: center; height: 100%; }
 @font-face { font-family: Montdemo; src: url(../fonts/Mont-HeavyDEMO.otf); font-weight: 900; }
 @font-face { font-family: fira; src: url(../fonts/FiraGO-Light.ttf); font-weight: 300; }
 header { margin-top: 48px; display: flex; align-items: center; justify-content: space-between; }
-@media (max-width: 991.98px) { header { flex-direction: column; } }
+@media (max-width: 991.98px) { header { flex-direction: column; margin-top: 20px; } }
 header .navigation { display: flex; align-items: center; }
 @media (max-width: 605.98px) { header .navigation { flex-wrap: wrap; justify-content: center; flex-direction: column; flex: 1 1 160px; } }
 header .navigation p { color: #ffffff; opacity: 0.6; margin-right: 20px; margin-left: 35px; font-family: fira; font-weight: 400; line-height: 17px; }
 @media (max-width: 605.98px) { header .navigation p { margin-top: 10px; } }
 header .header-order-btn { width: 214px; height: 45px; background-color: #ffffff; color: #0d0d0d; font-family: fira; font-weight: 700; }
+@media (max-width: 605.98px) { header .header-order-btn { margin-bottom: 20px; } }
 header .header-order-btn span { font-weight: 400; margin-left: 5px; }
 header .header-order-btn i { color: #000000; margin-right: 9px; }
 header nav { margin-right: 31px; }
@@ -106,6 +107,7 @@ body.order-now .circles span { bottom: -12px; right: -400px; }
 
 .landing-bg-video { position: fixed; min-width: 100%; height: 100vh; object-fit: fill; }
 
+@media (max-width: 605.98px) { section.landing { margin-bottom: 20px; } }
 section.landing p { font-size: 14px; color: #ffffff; font-family: fira; font-weight: 400; }
 section.landing h1 { font-size: 48px; color: #ffffff; margin-top: 1px; margin-bottom: 20px; margin-right: 47px; line-height: 66px; font-family: fira; font-weight: 900; }
 @media (max-width: 605.98px) { section.landing h1 { font-size: 30px; } }
