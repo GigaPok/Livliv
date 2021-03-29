@@ -15,6 +15,10 @@ section.landing {
         line-height: 66px;
         font-family: fira;
         font-weight: 900;
+
+        @include xs {
+            font-size: 30px;
+        }
     }
     .order-sound--btn-wrap {
         display: flex;

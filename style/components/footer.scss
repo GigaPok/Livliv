@@ -10,6 +10,10 @@ footer {
         &.waitlist {
             padding-top: 14px;
 
+            @include xs {
+                text-align: center;
+            }
+
             p {
                 font-weight: bold;
                 font-size: 14px;
@@ -22,6 +26,11 @@ footer {
             .row {
                 display: flex;
                 align-items: center;
+
+                @include xs {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
 
                 & > a {
                     display: flex;
@@ -52,6 +61,10 @@ footer {
                     align-items: center;
                     font-size: 14px;
 
+                    @include xs {
+                        margin-top: 10px;
+                    }
+
                     span {
                         color: rgba(#ffffff, 0.5);
                         margin-right: 8px;
@@ -79,6 +92,10 @@ footer {
             color: #ffffff;
             font-family: fira;
             font-weight: 200;
+
+            @include xs {
+                text-align: center;
+            }
         }
     }
 }
