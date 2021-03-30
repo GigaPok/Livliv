@@ -47,7 +47,8 @@ section.pre-order {
             text-align: end;
         }
 
-        p, span {
+        p,
+        span {
             color: #fff;
             font-family: fira;
             font-weight: 400;
@@ -58,9 +59,9 @@ section.pre-order {
         }
     }
     .shipping {
-
         @include xs {
             width: 100%;
+            padding: 20px;
         }
         .shipping-order {
             background-color: #fff;
@@ -73,6 +74,10 @@ section.pre-order {
             padding: 20px;
             font-family: Montdemo;
             font-weight: 900;
+
+            @include xs {
+                width: 100%;
+            }
 
             h2 {
                 font-size: 28px;
@@ -160,6 +165,43 @@ section.pre-order {
                 font-family: fira;
                 font-weight: 600;
                 margin-top: 4px;
+            }
+        }
+    }
+}
+.specification {
+    position: absolute;
+    left: -94px;
+
+    @include xl {
+        left: 1;
+    }
+
+    @include lg {
+        flex-direction: column;
+    }
+
+    .height-color-power-wrap {
+        @include lg {
+            margin-bottom: 30px;
+            position: relative;
+            left: -110px;
+            margin-top: 120px;
+            margin-right: 0;
+        }
+        @include sm {
+            margin-top: 40px;
+            left: -60px;
+        }
+        @include xs {
+            left: -26px;
+        }
+        .spec-line {
+            @include sm {
+                width: 90px;
+            }
+            @include xs {
+                width: 30px;
             }
         }
     }
