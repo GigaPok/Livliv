@@ -121,40 +121,40 @@ section.landing .order-sound--btn-wrap .fa-volume-up { display: none; }
 section.photos { display: flex; flex-direction: column; height: 100%; width: 100%; margin-top: 45px; }
 section.photos img { width: 100%; height: auto; border-radius: 14px; margin-bottom: 47px; border-radius: 16px; }
 
-section.specification, section.pre-order { display: flex; justify-content: flex-end; width: 100%; align-items: center; }
-section.specification .height-color-power-wrap, section.pre-order .height-color-power-wrap { display: flex; flex-direction: column; align-items: flex-end; margin-right: 65px; }
-section.specification .spec-line, section.pre-order .spec-line { width: 190px; height: 1px; background-color: #fff; display: flex; position: relative; margin-left: 15px; }
-section.specification .spec-line::after, section.pre-order .spec-line::after { content: " "; width: 10px; height: 10px; display: inline-block; background-color: #fff; border-radius: 50%; position: absolute; top: -5px; right: 0; }
-section.specification .height-color-power, section.pre-order .height-color-power { display: flex; align-items: center; margin-top: 60px; }
-section.specification .height-color-power:first-child, section.pre-order .height-color-power:first-child { margin-top: 0; }
-section.specification .height-color-power div, section.pre-order .height-color-power div { display: flex; flex-direction: column; text-align: end; }
-section.specification .height-color-power p, section.specification .height-color-power span, section.pre-order .height-color-power p, section.pre-order .height-color-power span { color: #fff; font-family: fira; font-weight: 400; }
-section.specification .height-color-power span, section.pre-order .height-color-power span { font-family: fira; font-weight: 700; }
-@media (max-width: 605.98px) { section.specification .shipping, section.pre-order .shipping { width: 100%; padding: 20px; } }
-section.specification .shipping .shipping-order, section.pre-order .shipping .shipping-order { background-color: #fff; width: 460px; height: 200px; display: flex; flex-direction: column; justify-content: center; border-radius: 14px; padding: 20px; font-family: Montdemo; font-weight: 900; }
-@media (max-width: 605.98px) { section.specification .shipping .shipping-order, section.pre-order .shipping .shipping-order { width: 100%; } }
-section.specification .shipping .shipping-order h2, section.pre-order .shipping .shipping-order h2 { font-size: 28px; margin-bottom: 4px; color: #000000; }
-section.specification .shipping .shipping-order p, section.pre-order .shipping .shipping-order p { font-size: 14px; color: #000000; margin-bottom: 20px; font-family: fira; font-weight: 400; margin-top: 2px; }
-section.specification .shipping .shipping-order .free-shipping, section.pre-order .shipping .shipping-order .free-shipping { display: flex; justify-content: center; color: #575757; font-family: fira; font-weight: 400; }
-section.specification .shipping .shipping-order .free-shipping span, section.pre-order .shipping .shipping-order .free-shipping span { color: #00ceff; }
-section.specification .shipping .shipping-order a.btn, section.pre-order .shipping .shipping-order a.btn { background: #242aec; background: linear-gradient(90deg, #242aec 0%, #0085fc 35%); height: 42px; margin-bottom: 16px; font-family: fira; font-weight: 700; }
-section.specification .shipping .shipping-order a.btn i, section.pre-order .shipping .shipping-order a.btn i { height: 12px; margin-right: 13px; }
-section.specification .shipping .shipping-order a.btn span, section.pre-order .shipping .shipping-order a.btn span { font-family: fira; font-weight: 300; margin: 0 5px; font-family: fira; }
-section.specification .shipping .need-help, section.pre-order .shipping .need-help { background-color: white; display: flex; border-radius: 14px; width: 460px; height: 118px; align-items: center; margin-top: 18px; }
-@media (max-width: 605.98px) { section.specification .shipping .need-help, section.pre-order .shipping .need-help { width: 100%; } }
-section.specification .shipping .need-help h2, section.pre-order .shipping .need-help h2 { font-family: fira; font-weight: 900; }
-section.specification .shipping .need-help p, section.pre-order .shipping .need-help p { max-width: 245px; font-size: 14px; color: #000000; margin-top: 4px; line-height: 17px; font-family: fira; font-weight: 400; }
-section.specification .shipping .need-help img, section.pre-order .shipping .need-help img { margin-right: 30px; margin-left: 30px; }
-section.specification .shipping .need-help a, section.pre-order .shipping .need-help a { color: #0181fb; text-decoration: underline; font-family: fira; font-weight: 600; margin-top: 4px; }
+section.specification-section, section.pre-order { display: flex; justify-content: flex-end; width: 100%; align-items: center; }
+section.specification-section .height-color-power-wrap, section.pre-order .height-color-power-wrap { display: flex; flex-direction: column; align-items: flex-end; margin-right: 65px; }
+section.specification-section .spec-line, section.pre-order .spec-line { width: 190px; height: 1px; background-color: #fff; display: flex; position: relative; margin-left: 15px; }
+section.specification-section .spec-line::after, section.pre-order .spec-line::after { content: " "; width: 10px; height: 10px; display: inline-block; background-color: #fff; border-radius: 50%; position: absolute; top: -5px; right: 0; }
+section.specification-section .height-color-power, section.pre-order .height-color-power { display: flex; align-items: center; margin-top: 60px; }
+section.specification-section .height-color-power:first-child, section.pre-order .height-color-power:first-child { margin-top: 0; }
+section.specification-section .height-color-power div, section.pre-order .height-color-power div { display: flex; flex-direction: column; text-align: end; }
+section.specification-section .height-color-power p, section.specification-section .height-color-power span, section.pre-order .height-color-power p, section.pre-order .height-color-power span { color: #fff; font-family: fira; font-weight: 400; }
+section.specification-section .height-color-power span, section.pre-order .height-color-power span { font-family: fira; font-weight: 700; }
+@media (max-width: 605.98px) { section.specification-section .shipping, section.pre-order .shipping { width: 100%; padding: 20px; } }
+section.specification-section .shipping .shipping-order, section.pre-order .shipping .shipping-order { background-color: #fff; width: 460px; height: 200px; display: flex; flex-direction: column; justify-content: center; border-radius: 14px; padding: 20px; font-family: Montdemo; font-weight: 900; }
+@media (max-width: 605.98px) { section.specification-section .shipping .shipping-order, section.pre-order .shipping .shipping-order { width: 100%; } }
+section.specification-section .shipping .shipping-order h2, section.pre-order .shipping .shipping-order h2 { font-size: 28px; margin-bottom: 4px; color: #000000; }
+section.specification-section .shipping .shipping-order p, section.pre-order .shipping .shipping-order p { font-size: 14px; color: #000000; margin-bottom: 20px; font-family: fira; font-weight: 400; margin-top: 2px; }
+section.specification-section .shipping .shipping-order .free-shipping, section.pre-order .shipping .shipping-order .free-shipping { display: flex; justify-content: center; color: #575757; font-family: fira; font-weight: 400; }
+section.specification-section .shipping .shipping-order .free-shipping span, section.pre-order .shipping .shipping-order .free-shipping span { color: #00ceff; }
+section.specification-section .shipping .shipping-order a.btn, section.pre-order .shipping .shipping-order a.btn { background: #242aec; background: linear-gradient(90deg, #242aec 0%, #0085fc 35%); height: 42px; margin-bottom: 16px; font-family: fira; font-weight: 700; }
+section.specification-section .shipping .shipping-order a.btn i, section.pre-order .shipping .shipping-order a.btn i { height: 12px; margin-right: 13px; }
+section.specification-section .shipping .shipping-order a.btn span, section.pre-order .shipping .shipping-order a.btn span { font-family: fira; font-weight: 300; margin: 0 5px; font-family: fira; }
+section.specification-section .shipping .need-help, section.pre-order .shipping .need-help { background-color: white; display: flex; border-radius: 14px; width: 460px; height: 118px; align-items: center; margin-top: 18px; }
+@media (max-width: 605.98px) { section.specification-section .shipping .need-help, section.pre-order .shipping .need-help { width: 100%; } }
+section.specification-section .shipping .need-help h2, section.pre-order .shipping .need-help h2 { font-family: fira; font-weight: 900; }
+section.specification-section .shipping .need-help p, section.pre-order .shipping .need-help p { max-width: 245px; font-size: 14px; color: #000000; margin-top: 4px; line-height: 17px; font-family: fira; font-weight: 400; }
+section.specification-section .shipping .need-help img, section.pre-order .shipping .need-help img { margin-right: 30px; margin-left: 30px; }
+section.specification-section .shipping .need-help a, section.pre-order .shipping .need-help a { color: #0181fb; text-decoration: underline; font-family: fira; font-weight: 600; margin-top: 4px; }
 
-.specification { position: absolute; left: -94px; }
-@media (max-width: 1599.98px) { .specification { left: 0; } }
-@media (max-width: 1205.98px) { .specification { flex-direction: column; } }
-@media (max-width: 1205.98px) { .specification .height-color-power-wrap { margin-bottom: 30px; position: relative; left: -110px; margin-top: 120px; margin-right: 0; } }
-@media (max-width: 767.98px) { .specification .height-color-power-wrap { margin-top: 40px; left: -60px; } }
-@media (max-width: 605.98px) { .specification .height-color-power-wrap { left: -26px; } }
-@media (max-width: 767.98px) { .specification .height-color-power-wrap .spec-line { width: 90px; } }
-@media (max-width: 605.98px) { .specification .height-color-power-wrap .spec-line { width: 30px; } }
+.specification-section { position: absolute; left: -190px; }
+@media (max-width: 1599.98px) { .specification-section { left: 0; } }
+@media (max-width: 1205.98px) { .specification-section { flex-direction: column; } }
+@media (max-width: 1205.98px) { .specification-section .height-color-power-wrap { margin-bottom: 30px; position: relative; left: -110px; margin-top: 120px; margin-right: 0; } }
+@media (max-width: 767.98px) { .specification-section .height-color-power-wrap { margin-top: 40px; left: -60px; } }
+@media (max-width: 605.98px) { .specification-section .height-color-power-wrap { left: -26px; } }
+@media (max-width: 767.98px) { .specification-section .height-color-power-wrap .spec-line { width: 90px; } }
+@media (max-width: 605.98px) { .specification-section .height-color-power-wrap .spec-line { width: 30px; } }
 
 section.pre-order { justify-content: center; }
 section.pre-order .pre-order-now form { display: flex; flex-direction: column; background-color: #fff; height: 447px; display: flex; flex-direction: column; justify-content: center; border-radius: 14px; padding: 20px; }

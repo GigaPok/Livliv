@@ -1,4 +1,4 @@
-section.specification,
+section.specification-section,
 section.pre-order {
     display: flex;
     justify-content: flex-end;
@@ -169,9 +169,9 @@ section.pre-order {
         }
     }
 }
-.specification {
+.specification-section {
     position: absolute;
-    left: -94px;
+    left: -190px;
 
     @include xl {
         left: 0;
