@@ -36,17 +36,17 @@ section.pre-order {
                 font-family: Montdemo;
                 font-weight: 900;
             }
-    
+
             .free-shipping {
                 display: flex;
                 justify-content: center;
                 color: #575757;
-    
+
                 span {
                     color: #00ceff;
                 }
             }
-    
+
             button {
                 background: rgb(36, 42, 236);
                 background: linear-gradient(90deg, rgba(36, 42, 236, 1) 0%, rgba(0, 133, 252, 1) 35%);
@@ -62,14 +62,13 @@ section.pre-order {
                     font-weight: 400;
                     margin-left: 5px;
                 }
-    
+
                 i {
                     height: 12px;
                     margin-right: 13px;
                 }
             }
         }
-        
     }
     .need-help {
         background-color: white;
@@ -78,7 +77,6 @@ section.pre-order {
         height: 118px;
         align-items: center;
         margin-top: 18px;
-        
 
         p {
             max-width: 245px;
@@ -103,5 +101,3 @@ section.pre-order {
         }
     }
 }
-
-
