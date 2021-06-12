@@ -171,3 +171,8 @@ section.pre-order .need-help p { max-width: 245px; font-size: 14px; color: #0000
 section.pre-order .need-help img { margin-right: 30px; margin-left: 30px; }
 section.pre-order .need-help a { color: #0181fb; text-decoration: underline; }
 @media (max-width: 605.98px) { section.pre-order .need-help { width: 100%; } }
+body {
+    background-image: url(../img/photos-1.png);
+    background-position: top -160px center, top center;
+    background-size: 1932px, 100%;
+}
